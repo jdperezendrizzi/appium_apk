@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Unittest Results</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <h2 class="text-capitalize">Unittest Results</h2>
+                <p class='attribute'><strong>Start Time: </strong>2023-03-30 12:25:37</p>
+                <p class='attribute'><strong>Duration: </strong>40.99 s</p>
+                <p class='attribute'><strong>Summary: </strong>Total: 3, Pass: 0, Error: 3</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>SRC.Test.test_credenciales.test_credenciales_001.TCcedenciales001</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_credenciales_001</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\QA_Automation\SRC\Test\test_credenciales\test_credenciales_001.py", line 72, in setUp
+    self.login.login(usr, pwd)
+  File "C:\QA_Automation\SRC\PageObjects\Login\PageObjetsLogin.py", line 25, in login
+    WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(self.asociado)).click()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 17.27 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>SRC.Test.test_credenciales.test_credenciales_002.TCcedenciales002</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_credenciales_002</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\QA_Automation\SRC\Test\test_credenciales\test_credenciales_002.py", line 71, in setUp
+    self.login.login(usr, pwd)
+  File "C:\QA_Automation\SRC\PageObjects\Login\PageObjetsLogin.py", line 25, in login
+    WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(self.asociado)).click()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 11.65 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-10 col-md-10">
+                <table class='table table-hover table-responsive'>
+                    <thead>
+                        <tr>
+                            <th>SRC.Test.test_credenciales.test_credenciales_003.TCcedenciales003</th>
+                            <th>Status</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class='warning'>
+                            <td class="col-xs-10">test_credenciales_003</td>
+                            <td class="col-xs-1">
+                                <span class="label label-warning" style="display:block;width:40px;">Error</span>
+                            </td>
+                            <td class="col-xs-1">
+                                <button class="btn btn-default btn-xs">View</button>
+                            </td>
+                        </tr>
+                        <tr style="display:none;">
+                            <td class="col-xs-9" colspan="3"><p style="color:maroon;">TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+</p><p style="color:maroon;">Traceback (most recent call last):
+  File "C:\QA_Automation\SRC\Test\test_credenciales\test_credenciales_003.py", line 71, in setUp
+    self.login.login(usr, pwd)
+  File "C:\QA_Automation\SRC\PageObjects\Login\PageObjetsLogin.py", line 25, in login
+    WebDriverWait(self.driver, 5).until(EC.element_to_be_clickable(self.asociado)).click()
+  File "C:\Users\Usuario\AppData\Local\Programs\Python\Python310\lib\site-packages\selenium\webdriver\support\wait.py", line 95, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	(No symbol) [0x00F2DCE3]
+	(No symbol) [0x00EC39D1]
+	(No symbol) [0x00DD4DA8]
+	(No symbol) [0x00E0019F]
+	(No symbol) [0x00E003AB]
+	(No symbol) [0x00E2EE62]
+	(No symbol) [0x00E1AF14]
+	(No symbol) [0x00E2D57C]
+	(No symbol) [0x00E1ACC6]
+	(No symbol) [0x00DF6F68]
+	(No symbol) [0x00DF80CD]
+	GetHandleVerifier [0x011A3832+2506274]
+	GetHandleVerifier [0x011D9794+2727300]
+	GetHandleVerifier [0x011DE36C+2746716]
+	GetHandleVerifier [0x00FD6690+617600]
+	(No symbol) [0x00ECC712]
+	(No symbol) [0x00ED1FF8]
+	(No symbol) [0x00ED20DB]
+	(No symbol) [0x00EDC63B]
+	BaseThreadInitThunk [0x771A00F9+25]
+	RtlGetAppContainerNamedObjectPath [0x77467BBE+286]
+	RtlGetAppContainerNamedObjectPath [0x77467B8E+238]
+
+</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="3">
+                                Total: 1, Pass: 0, Error: 1 -- Duration: 12.06 s
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('td').on('click', '.btn', function(e){
+                e.preventDefault();
+                e.stopImmediatePropagation();
+                var $this = $(this);
+                var $nextRow = $this.closest('tr').next('tr');
+                $nextRow.slideToggle("fast");
+                $this.text(function(i, text){
+                    if (text === 'View') {
+                        return 'Hide';
+                    } else {
+                        return 'View';
+                    };
+                });
+            });
+        });
+    </script>
+</body>
+</html

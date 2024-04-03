@@ -1,0 +1,4 @@
+{
+"ambiente": ["http://127.0.0.1:4723/wd/hub"],
+"driver": "C:/QA_Automation/SRC/chromedriver.exe"
+}
